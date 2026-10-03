@@ -1,0 +1,31 @@
+/* ==========================================
+   BODY STYLING (Applies to the entire page)
+   ========================================== */
+body {
+    /* Sets the background color of the webpage */
+    background-color: #f4f7f6;
+
+    /* Sets the primary font family and clean fallback fonts */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Sets the base text color */
+    color: #333333;
+
+    /* Removes default browser margins so the edge elements sit perfectly */
+    margin: 0;
+    padding: 0;
+
+    /* Centers the overall page content layout smoothly */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Optional styling for child elements inside the body */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
